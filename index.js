@@ -10,7 +10,7 @@ require("./app/routers/book.router")(app);
 
 // app.use("/", homeRouter);
 // app.use("/", bookRouter);
-
-app.listen(3000, function () {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, function () {
   console.log("Server listening on http://localhost:3000");
 });
