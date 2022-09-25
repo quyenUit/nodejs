@@ -12,5 +12,5 @@ require("./app/routers/book.router")(app);
 // app.use("/", bookRouter);
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
-  console.log("Server listening run");
+  console.log(`Server listening run localhost://${PORT}`);
 });
