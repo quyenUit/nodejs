@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "deploy-node-js-api.herokuapp.com",
+  host: "localhost",
   user: "root",
   password: "",
   database: "node_api",
